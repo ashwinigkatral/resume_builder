@@ -1,0 +1,49 @@
+ @media only screen and (max-width:360px)
+   {
+      .img-adj{
+            width:100%;
+             }  
+  }
+  @media only screen and (max-width:450px)
+  {
+      tr th{
+        padding:0;
+        background-color: brown;
+       }
+      .passport{
+             width :50%;
+             /* background-color: brown; */
+       }
+      .aboutself{
+            width:55%;
+            padding: 0;
+            background-color:darkblue;
+      }
+ }
+ 
+ @media only screen and(max-width:360px)
+ {
+       body{
+             font-size: 0.5rem;
+             /* background-color: aquamarine; */
+           }
+      .aboutself{
+            width:55%;
+            padding: 0;
+            background-color:darkblue;
+       }
+       .pharagraph{
+            padding-left: 5px;
+      }
+ }
+ @media only screen and(max-width:768px)
+  {
+       body{
+             font-size: 0.7rem;
+             font-weight: bold;
+             
+       }
+      
+
+
+ }

@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    line-height:2.0;
+    font-size: 1rem;
+}
+.container{
+    width: 80%;
+  border-left: 5px double red;
+    border: 1px solid black;
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.listing-order{
+    list-style: none;
+}
+.aboutself{
+    width: 70%;
+    border: 1px solid blue;
+    padding: 30px;
+}
+.objective{
+    background-color:yellowgreen;
+    border: 1px solid black;
+  }
+.img-adj{
+    width: 70%;
+    height: 70%;
+    min-width: 100px;
+    background-color: aquamarine;
+    animation-name: qq;
+    animation-duration: 10s;
+    animation-delay: 5s;
+    animation-iteration-count:infinite;
+    position: relative;
+}
+
+.SEPARATOR{
+    padding: 5px;
+}
+.main-section{
+    width: 100%;
+    display: flex;
+    /* border: 1px solid black; */
+}
+.passport{
+    width: 30%;
+    padding: 0px;
+}
+table,th,tr,td{
+    border: 1px solid red;
+    border-collapse: collapse;
+    text-align: center;
+   
+}
+tr th{
+    padding:0 10px 0 10px; 
+}
+.table-part{
+    justify-content: center;
+    display: flex;
+}
+.lang{
+    display: flex;
+}
+.lang div:first-child{
+    width: 30%;
+    padding:2px;
+
+}
+.progresbar{
+    width: 95%;
+}
+.lang div:last-child{
+    width: 30%;
+}
+.personal-details{
+    width: 70%;
+    margin: auto;
+}
+.details{
+    display: flex;
+}
+.details div:last-child{
+    width: 60%;
+}
+.details div:first-child{
+    width: 40%;
+}
+@keyframes qq {
+    0%{ background-color: red;right: 0px;top:0px}
+    25%{background-color: blue;right: 150px;top: 0px;}
+   
+} 
