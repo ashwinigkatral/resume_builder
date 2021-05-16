@@ -10,7 +10,8 @@ body{
 }
 .container{
     width: 80%;
-  border-left: 5px double red;
+    display: flexbox;
+    border-left: 5px double red;
     border: 1px solid black;
     margin: auto;
     padding-left: 10px;
@@ -23,6 +24,8 @@ body{
     width: 70%;
     border: 1px solid blue;
     padding: 30px;
+    /* height: 250px; */
+    
 }
 .objective{
     background-color:yellowgreen;
@@ -30,13 +33,13 @@ body{
   }
 .img-adj{
     width: 70%;
-    height: 70%;
-    min-width: 100px;
+    /* height: 70%; */
+    /* min-width: 100px; */
     background-color: aquamarine;
-    animation-name: qq;
+    /* animation-name: qq;
     animation-duration: 10s;
     animation-delay: 5s;
-    animation-iteration-count:infinite;
+    animation-iteration-count:infinite; */
     position: relative;
 }
 
@@ -51,6 +54,8 @@ body{
 .passport{
     width: 30%;
     padding: 0px;
+    /* margin-left:15px; */
+    text-align: center;
 }
 table,th,tr,td{
     border: 1px solid red;
@@ -92,8 +97,8 @@ tr th{
 .details div:first-child{
     width: 40%;
 }
-@keyframes qq {
+/* @keyframes qq {
     0%{ background-color: red;right: 0px;top:0px}
     25%{background-color: blue;right: 150px;top: 0px;}
    
-} 
+}  */

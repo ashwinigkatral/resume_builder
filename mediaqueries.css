@@ -1,9 +1,4 @@
- @media only screen and (max-width:360px)
-   {
-      .img-adj{
-            width:100%;
-             }  
-  }
+
   @media only screen and (max-width:450px)
   {
       tr th{
@@ -11,31 +6,45 @@
         background-color: brown;
        }
       .passport{
-             width :50%;
+             width :30%;
              /* background-color: brown; */
        }
       .aboutself{
-            width:55%;
+            width:70%;
             padding: 0;
             background-color:darkblue;
+            font-size: 80%; 
       }
  }
  
- @media only screen and(max-width:360px)
+ @media only screen and (width:360px)
  {
        body{
-             font-size: 0.5rem;
+             /* font-size: 0.5rem; */
              /* background-color: aquamarine; */
            }
       .aboutself{
-            width:55%;
-            padding: 0;
-            background-color:darkblue;
+            /* display: flex;
+            width:90%;
+            padding: 0; */
+            /* background-color:darkblue; */
+            /* font-size: 0.2em; */
+            /* position:absolute; */
+            word-wrap: break-word;
+           
        }
        .pharagraph{
             padding-left: 5px;
       }
- }
+      .img-adj{
+            width: 100%;
+             } 
+      .passport{
+                  width :35%;
+                  /* background-color: brown; */
+            }
+
+}
  @media only screen and(max-width:768px)
   {
        body{
